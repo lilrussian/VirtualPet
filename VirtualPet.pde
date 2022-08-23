@@ -16,8 +16,19 @@ void draw(){
   fill(232, 153, 208);
   ellipse(200,205,150,100);
   fill(0,0,0);
+  
+  //eyes
+  ellipse(160,130,40,40);
+  ellipse(240,130,40,40);
+  fill(255,255,255);
+  ellipse(165,125,20,20);
+  ellipse(165+80,125,20,20);
+  
+  //ears
+  fill(0,0,0);
   rotate(1);
   ellipse(140,-50,60,120);
-  ellipse(140,-50,60,120);
+  rotate(1);
+  ellipse(-40,-300,60,120);
 
 }
