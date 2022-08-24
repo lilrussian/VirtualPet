@@ -12,11 +12,11 @@ body {
 }
 
 header {
-	color: purple;
+	color: red;
 }
 
 footer {
 	font-style: italic;
 	font-size: 90%;
-	color: purple;
+	color: red;
 }
