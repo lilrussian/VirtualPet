@@ -11,10 +11,21 @@ void draw(){
   fill(240, 225, 62);
   ellipse(750,30,150,150);
   
+  //back legs
+  fill(255,255,255);
+  ellipse(270,293,40,100);
+  ellipse(400,293,40,100);
+  
   
   //body
   fill(255,255,255);
   ellipse(340,200,400,200);
+ 
+  // front legs
+  ellipse(220,300,40,85);
+  ellipse(460,300,40,85);
+  
+  //tail
   
   //spots
   fill(0,0,0);
@@ -47,6 +58,7 @@ void draw(){
   fill(255,255,255);
   ellipse(165,125,20,20);
   ellipse(165+80,125,20,20);
+  
   
   //ears
   fill(0,0,0);
